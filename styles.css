@@ -1,0 +1,65 @@
+/* navbar styles start */
+.navbar {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.navbar > .nav-brand {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+.navbar > .nav-link {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar > .nav-link > #nav-item1 {
+  color: gray;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar > .nav-link > #nav-item2 {
+  background-color: rgb(3, 192, 192);
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+/* navbar styles end */
+
+/* home styles start */
+.home {
+  height: 40vh;
+  background: linear-gradient(
+    to left,
+    rgb(237, 245, 248),
+    rgb(160, 160, 245),
+    rgb(135, 135, 245)
+  );
+  display: flex;
+}
+.home > .home-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home > .home-left > p {
+  margin: 0;
+}
+.home > .home-right {
+  height: 100%;
+  width: 50%;
+  background-image: url("./weddingdestiny.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+/* home styles end */
